@@ -33,7 +33,23 @@ automation workflow
 setting up Vagrant
 
 git for networking
+pull request
+
 
 IaC
 
 Netbox and how to really use it with automation
+
+its time to learn linux
+
+** Network engineering and Devops
+
+Data types
+
+pyats
+
+using the cisco sandbox
+
+using junos and cisco??
+
+docker
