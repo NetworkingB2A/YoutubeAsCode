@@ -1,6 +1,13 @@
 Why/how to use linting in network code?
+Linting
+- yaml
+- python
+- Ansible
+
 
 How to use VScode?
+- some cool basics ideas
+- 
 
 Declarative vs implicative
 
@@ -19,6 +26,9 @@ What kind of network engineer are you? ( SRE, DEVOPS, AUTOMation, network engine
 I can write code but i have problems reading coding documentation.
 
 ansible basics
+- how do i create a large number of inventory files
+- should i use Yaml or INI for ansible scripts
+- 
 ansible advance
 
 Python basics
@@ -34,6 +44,11 @@ setting up Vagrant
 
 git for networking
 pull request
+branches
+recover deleted files
+look at old commits
+
+
 
 
 IaC
