@@ -1,0 +1,15 @@
+Define and understand your goal
+    just starting to write code doesnt work for me
+
+I dont know where to start, it seems like so much at first
+    start at the very beginning.
+    import the first module you need and deliver on the absolute bare minimum. Then start to add new features. 
+
+I am worried i may need to refactor my code.
+    yeah, that will happen sometimes.
+    but every time you realize that you need to refactor you code is just one pitfall you will avoid next time.
+
+Stop starting and start finishing.
+
+choose a coding standard and stick to it
+    using black or using camaelcase

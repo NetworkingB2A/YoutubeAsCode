@@ -1,0 +1,88 @@
+What is the goal of the video/code?
+My code needs to take a jinja2 template file and a csv, output a script into a folder
+
+very first i need to create a repo, a venv, and pip install jinja and csv.
+
+
+What do I need to learn first?
+I need to learn how to import a jinja2 file and a CSV file.
+
+Completed
+imported a CSV file
+
+Basic Template created and need to create video script
+
+
+
+
+==================================================================
+                        Video Script
+==================================================================
+
+Purpose of Video?
+- Show a Network engineer who is just getting started how to mass create scripts using python, Jinja and CSV.
+- I want to show someone how to get this up and running in 10 minutes because they might have 100 devices they need to configure tomorrow and they dont have time hours to spend in order to get this running in the perfect mode. This is for that person that wants a solution right now and might improve upon it later.
+
+
+
+
+What does this script do?
+- This script will take a jinja template file, with a CSV file and output a script for you to use. Maybe you want to 
+
+Time to write the script
+some of the prereqs
+create your folder structure
+Root folder
+- scriptOutput
+-templateAndData
+--csvVariableFile
+--jinjaTemplateFile
+
+Create a venv
+python3 -m venv venv
+
+
+- the first part of the script will be to import the libraries we will need.
+for this script we only need two 
+-- csv
+-- Jinja but i only need to import the Template
+
+once we have the libraries I want to create a couple of variables that we will need in the script
+- this first one will ask the user for the name of the jinja file and the CSV.
+    - for ease of use I will expect that the name of the CSV and the Jinja file are have the same name before the extension 
+    - Next i will load my jinja template. now I like to use a context handler so i dont need to worry about opening and closing files.
+    - Now is the real fun part of the script
+        - open the CSV and convert the a dictionary. 
+            - lets see this in action real quick on the side.
+        we need to take the data from the dictionary and load that data into our template
+        for my basic exmaple I expect at least one column. that one column I expect is that first column should be the script file name.
+        we now need to take the script that we just created and output that into our script output folder.
+        and i finish it up with a print statement that says to which file we are now working on.
+
+
+now that we have a python script ready lets create a jinja file and a csv
+create a basic jinja file and csv
+Jinja variables top section
+
+
+
+What can be done to improve upon this script?
+- Add a password vault
+- Build out your Jinja templates. Make them be small parts that your can just grab and go
+- Allow different data formats
+    - Json
+    - Yaml
+    - XML
+    - CSV
+- Add a menu to this
+    - to your program
+- Add error checking
+    - files exist 
+    - does the variable exist
+
+There are many many features you can add.
+
+But this is should be enough to get you up and running and now if you need to create a new script for 100 devices tomorrow you can get them done error free and very fast.
+
+
+

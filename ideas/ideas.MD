@@ -25,11 +25,16 @@ What kind of network engineer are you? ( SRE, DEVOPS, AUTOMation, network engine
 
 I can write code but i have problems reading coding documentation.
 
-ansible basics
-- how do i create a large number of inventory files
-- should i use Yaml or INI for ansible scripts
-- 
-ansible advance
+ansible for network engineers
+- Ansible Configuration file
+- Building out inventory file
+- Building out an host_vars file/Folder
+- Building out an group_vars file/Folder
+- cisco dedicated module vs cisco config module
+- Using the Ansible Vault
+- Building a Basic Playbook
+- Building tasks
+
 
 Python basics
 Python advanced
@@ -68,3 +73,5 @@ using the cisco sandbox
 using junos and cisco??
 
 docker
+
+deliver quick and deliver often
